@@ -1,7 +1,7 @@
 from rest_framework import routers
-from .api import CatelogViewSet
+from .api import SchemaViewSet
 
 router = routers.DefaultRouter()
-router.register('api/catelog', CatelogViewSet, 'catelog')
+router.register('api', SchemaViewSet, 'schema')
 
 urlpatterns = router.urls

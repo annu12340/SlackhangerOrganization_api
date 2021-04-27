@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     'accounts',
-    'catelog',
+    'schema',
+
 ]
 
 REST_FRAMEWORK = {
