@@ -23,6 +23,6 @@ urlpatterns = [
     path('auth/', include('accounts.urls')),
 
     path('schema/', include('schema.urls')),
-
+    # path('extractData/', include('extractData.urls')),
 
 ]
